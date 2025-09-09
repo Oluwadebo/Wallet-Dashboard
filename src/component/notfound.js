@@ -1,18 +1,25 @@
-import React from "react";
+import React from 'react';
 
 const notfound = () => {
   return (
     <>
-      <div className="my-5">
-        <div className="container py-1 py-md-5">
-          <div id="message" className="shadow p-5 my-md-5 my-0 abcde">
-            <h1>404! 404!! 404!!!</h1>
-            <h2>Page Not Found!!!</h2>
-            <h2>
-              The specified file was not found on this website. Please check the
-              URL for mistakes and try again.
-            </h2>
-          </div>
+      <div>
+        <div
+          className="d-flex flex-column justify-content-center align-items-center text-center"
+          style={{
+            minHeight: '100vh',
+            background: '#0d1117',
+            color: '#e5e7eb',
+          }}
+        >
+          <h1 className="fw-bold display-1 text-info">404</h1>
+          <h3 className="fw-semibold mb-3">Page Not Found</h3>
+          <p className="mb-4" style={{ maxWidth: '400px', color: '#94a3b8' }}>
+            Oops! The page you’re looking for doesn’t exist or has been moved.
+          </p>
+          <a href="/" className="btn btn-info text-dark fw-bold shadow">
+            ⬅ Back to Dashboard
+          </a>
         </div>
       </div>
     </>

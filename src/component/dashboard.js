@@ -3,15 +3,6 @@ import React from 'react';
 const dashboard = () => {
   return (
     <>
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-      />
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        defer
-      ></script>
-
       <div
         style={{
           minHeight: '100vh',
@@ -47,7 +38,7 @@ const dashboard = () => {
               </button>
               <ul className="dropdown-menu dropdown-menu-end dropdown-menu-dark shadow">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="sd">
                     Profile
                   </a>
                 </li>
